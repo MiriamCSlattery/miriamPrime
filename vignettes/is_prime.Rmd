@@ -1,0 +1,35 @@
+---
+title: "is_prime"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{is_prime}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(miriamPrime)
+```
+
+##Create Test Data
+To show how the `is.prime()` function works, we need some test data that is a numeric vector of integers greater than or equal to 2.
+
+```{r}
+x <- c(2,3,4)
+```
+
+## Using the `is.prime()` function
+The `is.prime()` function takes the numeric vector and returns a boolean vector of the same length, indicating whether each value is prime or not.
+
+```{r}
+is.prime(x)
+```
+
+

@@ -1,0 +1,19 @@
+Package: miriamPrime
+Title: Tests if numbers are prime
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Miriam",
+           family = "Slattery",
+           role = c("aut", "cre"),
+           email = "miriam.slattery@adelaide.edu.au",
+           comment = c(ORCID = "0000-0001-7661-6221"))
+Description: Takes a vector of positive integers greater than 1 and returns a boolean vector indicating whether the input is prime.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 2.1.0)
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
